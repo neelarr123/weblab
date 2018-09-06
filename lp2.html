@@ -1,0 +1,40 @@
+<html>
+<head>
+<body>
+<center><h3>Square and Cube</h3></center>
+<script>
+document.write("<center><table> <tr> <th>Number</th>  <th>Square</th> <th>Cube</th></tr>")
+for  (var n=0;n<=10; n++)
+{
+document.write(" <tr><td> "+n+" </td><td> "+n*n+" </td><td> "+n*n*n+"</td></tr> ")
+}
+document.write("</table></center>")
+
+</script>
+</body>
+<style>
+table,tr,td{
+border: 2px solid black;
+border-spacing:2px;
+text-align:center;
+padding :5px;
+border-collapse:collapse;
+background-color:lightpink;
+width:50%;
+
+}
+th{
+border: 2px solid black;
+border-spacing:2px;
+background-color:#dcd4d5;
+}
+th,td {
+width:50px;
+}
+td:hover {
+background-color:#dcd4d4;
+}
+
+</style>
+</head>
+</html>
